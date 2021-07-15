@@ -3,3 +3,4 @@ Freqtrade Strategies
 
 # Backtesting 
 
+![](backtesting.png)
