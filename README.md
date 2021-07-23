@@ -1,4 +1,4 @@
-# freq-strategies
+# freq-strategies-Ichimoku
 Freqtrade Strategies
 
 # Download Data
