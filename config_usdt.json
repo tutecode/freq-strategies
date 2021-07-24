@@ -1,12 +1,12 @@
 {
-    "max_open_trades": 182,
+    "max_open_trades": 100,
     "stake_currency": "USDT",
     "stake_amount": "unlimited",
     "tradable_balance_ratio": 0.99,
     "fiat_display_currency": "USD",
     "timeframe": "4h",
     "dry_run": true,
-    "dry_run_wallet": 5000,
+    "dry_run_wallet": 2000,
     "cancel_open_orders_on_exit": false,
     "trailing_stop": true,
     "unfilledtimeout": {
@@ -238,7 +238,16 @@
           "TWT/USDT",
           "FIRO/USDT",
           "LIT/USDT",
-          "SFP/USDT"
+          "SFP/USDT",
+          "COCOS/USDT",
+          "ONE/USDT",
+          "BAKE/USDT",
+          "EPS/USDT",
+          "MASK/USDT",
+          "TKO/USDT",
+          "MDX/USDT",
+          "SUPER/USDT",
+          "ICP/USDT"
         ],
         "pair_blacklist": [
           "PAXG/USDT",
