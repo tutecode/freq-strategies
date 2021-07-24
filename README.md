@@ -24,4 +24,5 @@ freqtrade backtesting --strategy-list Ichimoku_v1 Ichimoku_v2 Ichimoku_v3 Ichimo
 
 # Backtesting Ichimoku_v25
 
+![](Ichimoku_v25.png)
 
