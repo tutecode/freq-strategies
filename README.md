@@ -11,7 +11,7 @@ freqtrade test-pairlist --config config.json
 
 # Download Data
 
-****23/07/2021 - USDT - 4 hours****
+****05/08/2021 - USDT - 4 hours****
 
 ```bash
 freqtrade download-data --config config_usdt.json --timeframes 4h --days 13
@@ -23,7 +23,7 @@ freqtrade download-data --config config_usdt.json --timeframes 4h --days 13
 freqtrade download-data --config config_usdt.json --timeframes 1d --days 13
 ```
 
-****23/07/2021 - USDT - 1 week****
+****05/08/2021 - USDT - 1 week****
 
 ```bash
 freqtrade download-data --config config_usdt.json --timeframes 1w --days 13
