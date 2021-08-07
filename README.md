@@ -45,3 +45,48 @@ freqtrade backtesting --strategy-list Ichimoku_v1 Ichimoku_v2 Ichimoku_v3 Ichimo
 
 ![](Ichimoku_v25.png)
 
+
+
+
+# Update Freqtrade
+
+```bash
+./setup.sh -u
+```
+
+```bash
+git checkout develop
+```
+
+```bash
+git stash
+```
+
+```bash
+git pull
+```
+
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+Updating 5f483acd..729e7733
+error: Your local changes to the following files would be overwritten by merge:
+        freqtrade/main.py
+Please commit your changes or stash them before you merge.
+Aborting
+
+
+
+
+
+
